@@ -1,0 +1,20 @@
+2022-05-10 21:24:19.195  INFO 23500 --- [main] m.s.SpringBootJ2cacheApplication         : Starting SpringBootJ2cacheApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 23500 (H:\程序\大三下期\spring_boot_j2cache\target\spring_boot_j2cache-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\spring_boot_j2cache\target)
+2022-05-10 21:24:19.198 DEBUG 23500 --- [main] m.s.SpringBootJ2cacheApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 21:24:19.199  INFO 23500 --- [main] m.s.SpringBootJ2cacheApplication         : The following 1 profile is active: "dev"
+2022-05-10 21:24:20.066  INFO 23500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 21:24:20.073  INFO 23500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 21:24:20.132  INFO 23500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-05-10 21:24:20.922  INFO 23500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-10 21:24:20.934  INFO 23500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-10 21:24:20.934  INFO 23500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-10 21:24:21.008  INFO 23500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-10 21:24:21.008  INFO 23500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1754 ms
+2022-05-10 21:24:21.118  INFO 23500 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 21:24:21.325  INFO 23500 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 21:24:21.723  INFO 23500 --- [main] n.o.j2cache.util.SerializationUtils      : Using Serializer -> [java:net.oschina.j2cache.util.JavaSerializer]
+2022-05-10 21:24:21.950  INFO 23500 --- [main] net.oschina.j2cache.CacheProviderHolder  : Using L1 CacheProvider : net.oschina.j2cache.ehcache.EhCacheProvider
+2022-05-10 21:24:21.998  WARN 23500 --- [main] .j.a.J2CacheSpringRedisAutoConfiguration : Redis mode [null] not defined. Using 'single'.
+2022-05-10 21:24:22.118  INFO 23500 --- [main] net.oschina.j2cache.CacheProviderHolder  : Using L2 CacheProvider : net.oschina.j2cache.cache.support.redis.SpringRedisProvider
+2022-05-10 21:24:22.131  INFO 23500 --- [main] net.oschina.j2cache.J2CacheBuilder       : Using cluster policy : net.oschina.j2cache.cache.support.redis.SpringRedisPubSubPolicy
+2022-05-10 21:24:22.931  INFO 23500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-10 21:24:22.977  INFO 23500 --- [main] m.s.SpringBootJ2cacheApplication         : Started SpringBootJ2cacheApplication in 4.385 seconds (JVM running for 4.885)
